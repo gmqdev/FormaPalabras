@@ -11,7 +11,7 @@ public class FormaPalabras {
         List<Palabra> coincidencias = b.similares("TTDONILUEIHA", "***D**O"); // Solución: INÉDITO
         
         coincidencias.forEach((coincidencia) -> {
-            System.out.println("PALABRA: "+coincidencia.getPalabra()+"\tSOBRAN: "+coincidencia.getSobran()+"\tFALTAN: "+coincidencia.getFaltan());
+            System.out.println("Palabra: "+coincidencia.getPalabra().toUpperCase());
         });
     }
 }
